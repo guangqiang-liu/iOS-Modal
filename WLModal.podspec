@@ -24,10 +24,10 @@ Pod::Spec.new do |s|
 
   s.requires_arc     = true
 
-  s.prefix_header_file = "WLModalComponent/WLModal.pch"
+  s.prefix_header_file = "WLModal/WLModal.pch"
 
   s.subspec 'Modal' do |ss|
-        ss.source_files = "WLModalComponent/View/**/*.{h,m}"
+        ss.source_files = "WLModal/View/**/*.{h,m}"
     end
 
   s.dependency 'Masonry'
