@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "CategoryHeader.h"
 #import "NSObject+Property.h"
 #import "UIButton+Gradient.h"
 #import "UIButton+WLContentExtention.h"
@@ -20,6 +21,7 @@
 #import "ColorConst.h"
 #import "FontConst.h"
 #import "LogConst.h"
+#import "MacroHeader.h"
 #import "WLConst.h"
 
 FOUNDATION_EXPORT double WLWidgetVersionNumber;

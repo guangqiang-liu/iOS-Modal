@@ -4,11 +4,11 @@ PODS:
     - SDWebImage/Core (= 4.3.3)
   - SDWebImage/Core (4.3.3)
   - WLIconFont (0.1.4)
-  - WLWidget (0.0.3):
-    - WLWidget/Category (= 0.0.3)
-    - WLWidget/Macro (= 0.0.3)
-  - WLWidget/Category (0.0.3)
-  - WLWidget/Macro (0.0.3)
+  - WLWidget (0.0.4):
+    - WLWidget/Category (= 0.0.4)
+    - WLWidget/Macro (= 0.0.4)
+  - WLWidget/Category (0.0.4)
+  - WLWidget/Macro (0.0.4)
 
 DEPENDENCIES:
   - Masonry
@@ -20,8 +20,8 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
   WLIconFont: 90d85045eac52306afc40647c58972e95007ca3a
-  WLWidget: 278964b726dba2b71e10a61b0e0ab7e055f0509e
+  WLWidget: 29f38795f8c2a0d77532f0a84ef49017bc2f2f87
 
-PODFILE CHECKSUM: a444fdcddd723630698f4cc3a0f4fed3195eef26
+PODFILE CHECKSUM: d966d9d51a42070127df5a8fc91b8fa0ddc0f2f6
 
 COCOAPODS: 1.4.0
