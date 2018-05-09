@@ -15,6 +15,6 @@
 #import "Masonry.h"
 #import "UIImageView+WebCache.h"
 #import "UIButton+WebCache.h"
-#import "WLWidget-umbrella.h"
+#import <WLWidget/WLWidget-umbrella.h>
 
 #endif /* WLModal_pch */
