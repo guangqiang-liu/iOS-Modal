@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31098127DA2ACD6D6BC25AB9 /* Pods_WLModal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA760BC3636E78F5D7CB0315 /* Pods_WLModal.framework */; };
 		9CC4FEC420A28F7A00232074 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC4FEC320A28F7A00232074 /* AppDelegate.m */; };
 		9CC4FEC720A28F7A00232074 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC4FEC620A28F7A00232074 /* ViewController.m */; };
 		9CC4FECA20A28F7A00232074 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CC4FEC820A28F7A00232074 /* Main.storyboard */; };
 		9CC4FECC20A28F7A00232074 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CC4FECB20A28F7A00232074 /* Assets.xcassets */; };
 		9CC4FECF20A28F7A00232074 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CC4FECD20A28F7A00232074 /* LaunchScreen.storyboard */; };
 		9CC4FED220A28F7A00232074 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC4FED120A28F7A00232074 /* main.m */; };
+		9CC4FEE120A28FD900232074 /* WLPurchaseInvoiceStepModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC4FEDA20A28FD900232074 /* WLPurchaseInvoiceStepModal.m */; };
+		9CC4FEE220A28FD900232074 /* WLAlertModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC4FEDC20A28FD900232074 /* WLAlertModal.m */; };
+		9CC4FEE320A28FD900232074 /* WLModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC4FEDE20A28FD900232074 /* WLModal.m */; };
+		9CC4FEE420A28FD900232074 /* WLInvoiceQrModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC4FEE020A28FD900232074 /* WLInvoiceQrModal.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14A2C1E6DF862A19D3F08450 /* Pods-WLModal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLModal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WLModal/Pods-WLModal.debug.xcconfig"; sourceTree = "<group>"; };
 		9CC4FEBF20A28F7A00232074 /* WLModal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WLModal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CC4FEC220A28F7A00232074 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9CC4FEC320A28F7A00232074 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +32,17 @@
 		9CC4FECE20A28F7A00232074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CC4FED020A28F7A00232074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CC4FED120A28F7A00232074 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9CC4FED920A28FD900232074 /* WLModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLModal.h; sourceTree = "<group>"; };
+		9CC4FEDA20A28FD900232074 /* WLPurchaseInvoiceStepModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLPurchaseInvoiceStepModal.m; sourceTree = "<group>"; };
+		9CC4FEDB20A28FD900232074 /* WLInvoiceQrModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLInvoiceQrModal.h; sourceTree = "<group>"; };
+		9CC4FEDC20A28FD900232074 /* WLAlertModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLAlertModal.m; sourceTree = "<group>"; };
+		9CC4FEDD20A28FD900232074 /* WLPurchaseInvoiceStepModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLPurchaseInvoiceStepModal.h; sourceTree = "<group>"; };
+		9CC4FEDE20A28FD900232074 /* WLModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLModal.m; sourceTree = "<group>"; };
+		9CC4FEDF20A28FD900232074 /* WLAlertModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLAlertModal.h; sourceTree = "<group>"; };
+		9CC4FEE020A28FD900232074 /* WLInvoiceQrModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLInvoiceQrModal.m; sourceTree = "<group>"; };
+		9CC4FEE520A2904100232074 /* WLModal.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLModal.pch; sourceTree = "<group>"; };
+		A175B8EE5FC860A7A65425B8 /* Pods-WLModal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLModal.release.xcconfig"; path = "Pods/Target Support Files/Pods-WLModal/Pods-WLModal.release.xcconfig"; sourceTree = "<group>"; };
+		EA760BC3636E78F5D7CB0315 /* Pods_WLModal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WLModal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +50,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31098127DA2ACD6D6BC25AB9 /* Pods_WLModal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35187C04222A1DAE3A4C7EFA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14A2C1E6DF862A19D3F08450 /* Pods-WLModal.debug.xcconfig */,
+				A175B8EE5FC860A7A65425B8 /* Pods-WLModal.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9CC4FEB620A28F7A00232074 = {
 			isa = PBXGroup;
 			children = (
 				9CC4FEC120A28F7A00232074 /* WLModal */,
 				9CC4FEC020A28F7A00232074 /* Products */,
+				35187C04222A1DAE3A4C7EFA /* Pods */,
+				B18984F20DE12D146D7A28B3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +87,7 @@
 		9CC4FEC120A28F7A00232074 /* WLModal */ = {
 			isa = PBXGroup;
 			children = (
+				9CC4FED820A28FD900232074 /* View */,
 				9CC4FEC220A28F7A00232074 /* AppDelegate.h */,
 				9CC4FEC320A28F7A00232074 /* AppDelegate.m */,
 				9CC4FEC520A28F7A00232074 /* ViewController.h */,
@@ -67,8 +97,32 @@
 				9CC4FECD20A28F7A00232074 /* LaunchScreen.storyboard */,
 				9CC4FED020A28F7A00232074 /* Info.plist */,
 				9CC4FED120A28F7A00232074 /* main.m */,
+				9CC4FEE520A2904100232074 /* WLModal.pch */,
 			);
 			path = WLModal;
+			sourceTree = "<group>";
+		};
+		9CC4FED820A28FD900232074 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9CC4FED920A28FD900232074 /* WLModal.h */,
+				9CC4FEDE20A28FD900232074 /* WLModal.m */,
+				9CC4FEDD20A28FD900232074 /* WLPurchaseInvoiceStepModal.h */,
+				9CC4FEDA20A28FD900232074 /* WLPurchaseInvoiceStepModal.m */,
+				9CC4FEDF20A28FD900232074 /* WLAlertModal.h */,
+				9CC4FEDC20A28FD900232074 /* WLAlertModal.m */,
+				9CC4FEDB20A28FD900232074 /* WLInvoiceQrModal.h */,
+				9CC4FEE020A28FD900232074 /* WLInvoiceQrModal.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B18984F20DE12D146D7A28B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA760BC3636E78F5D7CB0315 /* Pods_WLModal.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +132,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CC4FED520A28F7A00232074 /* Build configuration list for PBXNativeTarget "WLModal" */;
 			buildPhases = (
+				37A72A5928A118A6E7DB1E3E /* [CP] Check Pods Manifest.lock */,
 				9CC4FEBB20A28F7A00232074 /* Sources */,
 				9CC4FEBC20A28F7A00232074 /* Frameworks */,
 				9CC4FEBD20A28F7A00232074 /* Resources */,
+				8D1B92D9D9793997A42BA43F /* [CP] Embed Pods Frameworks */,
+				F370E1DCF22D1A6EE411B504 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,14 +194,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		37A72A5928A118A6E7DB1E3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WLModal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D1B92D9D9793997A42BA43F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WLModal/Pods-WLModal-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/WLIconFont/WLIconFont.framework",
+				"${BUILT_PRODUCTS_DIR}/WLWidget/WLWidget.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WLIconFont.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WLWidget.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WLModal/Pods-WLModal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F370E1DCF22D1A6EE411B504 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WLModal/Pods-WLModal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9CC4FEBB20A28F7A00232074 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CC4FEE320A28FD900232074 /* WLModal.m in Sources */,
 				9CC4FEC720A28F7A00232074 /* ViewController.m in Sources */,
 				9CC4FED220A28F7A00232074 /* main.m in Sources */,
 				9CC4FEC420A28F7A00232074 /* AppDelegate.m in Sources */,
+				9CC4FEE120A28FD900232074 /* WLPurchaseInvoiceStepModal.m in Sources */,
+				9CC4FEE420A28FD900232074 /* WLInvoiceQrModal.m in Sources */,
+				9CC4FEE220A28FD900232074 /* WLAlertModal.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,10 +397,13 @@
 		};
 		9CC4FED620A28F7A00232074 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14A2C1E6DF862A19D3F08450 /* Pods-WLModal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WLModal/WLModal.pch";
 				INFOPLIST_FILE = WLModal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = quangqiang.WLModal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,10 +413,13 @@
 		};
 		9CC4FED720A28F7A00232074 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A175B8EE5FC860A7A65425B8 /* Pods-WLModal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WLModal/WLModal.pch";
 				INFOPLIST_FILE = WLModal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = quangqiang.WLModal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
