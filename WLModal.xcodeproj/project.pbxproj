@@ -41,6 +41,7 @@
 		9CC4FEDF20A28FD900232074 /* WLAlertModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLAlertModal.h; sourceTree = "<group>"; };
 		9CC4FEE020A28FD900232074 /* WLInvoiceQrModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLInvoiceQrModal.m; sourceTree = "<group>"; };
 		9CC4FEE520A2904100232074 /* WLModal.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLModal.pch; sourceTree = "<group>"; };
+		9CC4FEE820A2A01C00232074 /* ModalHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModalHeader.h; sourceTree = "<group>"; };
 		A175B8EE5FC860A7A65425B8 /* Pods-WLModal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLModal.release.xcconfig"; path = "Pods/Target Support Files/Pods-WLModal/Pods-WLModal.release.xcconfig"; sourceTree = "<group>"; };
 		EA760BC3636E78F5D7CB0315 /* Pods_WLModal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WLModal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -113,6 +114,7 @@
 				9CC4FEDC20A28FD900232074 /* WLAlertModal.m */,
 				9CC4FEDB20A28FD900232074 /* WLInvoiceQrModal.h */,
 				9CC4FEE020A28FD900232074 /* WLInvoiceQrModal.m */,
+				9CC4FEE820A2A01C00232074 /* ModalHeader.h */,
 			);
 			path = View;
 			sourceTree = "<group>";
