@@ -10,9 +10,11 @@ target 'WLModal' do
   
   # Pods for WLModal
   
-  pod 'Masonry'
-  pod 'SDWebImage'
+#  pod 'WLIconFont', :path => '/Users/liuguangqiang/Desktop/companyRepo/WLPLib/WLIconFont/WLIconFont.podspec'
+#  pod 'WLWidget', :path => '/Users/liuguangqiang/Desktop/companyRepo/WLPLib/WLWidget/WLWidget.podspec'
+
   pod 'WLIconFont'
   pod 'WLWidget'
-
+  pod 'Masonry'
+  pod 'SDWebImage'
 end

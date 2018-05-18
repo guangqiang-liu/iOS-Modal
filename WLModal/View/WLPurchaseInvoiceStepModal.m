@@ -78,8 +78,9 @@
         _button.titleLabel.font = H16;
         _button.layer.cornerRadius = 22;
         _button.layer.masksToBounds = YES;
-        [_button createGradientButtonWithSize:CGSizeMake(128, 44) colorArray:@[HexRGB(0xFF7E4A), HexRGB(0xFF4A4A)] percentageArray:@[@(0.1), @(1)] gradientType:(GradientFromLeftToRight)];
+        [_button createGradientButtonWithSize:CGSizeMake(128, 44) colorArray:@[HexRGB(0xFF7E4A), HexRGB(0xFF4A4A)] gradientType:(GradientFromLeftToRight)];
         [_button whenTapped:^{
+            !self.closeModalActionBlock ?: self.closeModalActionBlock();
         }];
     }
     return _button;
@@ -111,7 +112,7 @@
 - (UIView *)createLineViewWithRect:(CGRect)rect {
     UIView *line = [[UIView alloc] init];
     line.frame = rect;
-    line.backgroundColor = HexRGB(0x999999);
+    line.backgroundColor = sepLineColor;
     return line;
 }
 

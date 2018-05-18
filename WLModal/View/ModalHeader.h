@@ -13,5 +13,7 @@
 #import "WLInvoiceQrModal.h"
 #import "WLModal.h"
 #import "WLPurchaseInvoiceStepModal.h"
+#import "WLTitleModal.h"
+#import "WLTitleWithContentModal.h"
 
 #endif /* ModalHeader_h */
