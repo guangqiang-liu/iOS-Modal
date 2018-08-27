@@ -13,7 +13,7 @@ target 'WLModal' do
 #  pod 'WLIconFont', :path => '/Users/liuguangqiang/Desktop/companyRepo/WLPLib/WLIconFont/WLIconFont.podspec'
 #  pod 'WLWidget', :path => '/Users/liuguangqiang/Desktop/companyRepo/WLPLib/WLWidget/WLWidget.podspec'
 
-  pod 'GQIconFont'
+  pod 'WLIconFont'
   pod 'GQWidget'
   pod 'Masonry'
   pod 'SDWebImage'
