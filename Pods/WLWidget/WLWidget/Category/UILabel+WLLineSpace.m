@@ -36,7 +36,7 @@
     [self sizeToFit];
 }
 
-- (void)setSpecificTextWithText:(NSString *)text color:(UIColor *)color font:(NSInteger)font {
+- (void)setSpecificTextWithText:(NSString *)text color:(UIColor *)color font:(UIFont *)font {
     if (text) {
         NSMutableAttributedString *editPriceStr = [[NSMutableAttributedString alloc] initWithString:self.text];
         NSRange range = [self.text rangeOfString:text];
@@ -44,25 +44,25 @@
             [editPriceStr addAttribute:NSForegroundColorAttributeName value:color range:NSMakeRange(range.location, range.length)];
         }
         if (font != 0) {
-            [editPriceStr addAttribute:NSFontAttributeName value:[UIFont systemFontOfSize:font] range:NSMakeRange(range.location, range.length)];
+            [editPriceStr addAttribute:NSFontAttributeName value:font range:NSMakeRange(range.location, range.length)];
         }
         self.attributedText = editPriceStr;
     }
 }
     
-- (void)setSpecificTextWithLocation:(NSInteger)location length:(NSInteger)length color:(UIColor *)color font:(NSInteger )font {
+- (void)setSpecificTextWithLocation:(NSInteger)location length:(NSInteger)length color:(UIColor *)color font:(UIFont *)font {
     NSMutableAttributedString *editPriceStr = [[NSMutableAttributedString alloc] initWithString:self.text];
     if (color) {
         [editPriceStr addAttribute:NSForegroundColorAttributeName value:color range:NSMakeRange(location, length)];
     }
     if (font != 0) {
-        [editPriceStr addAttribute:NSFontAttributeName value:[UIFont systemFontOfSize:font] range:NSMakeRange(location, length)];
+        [editPriceStr addAttribute:NSFontAttributeName value:font range:NSMakeRange(location, length)];
     }
     self.attributedText = editPriceStr;
 }
     
 + (CGSize)calculateLableSizeWithLableText:(NSString *)text font:(UIFont *)font lineSpace:(NSInteger)space maxWidth:(CGFloat)width {
-    if (![text length]) return CGSizeMake(width, 0.1f);
+    if (![text length]) return CGSizeMake(width, 0.01f);
     NSMutableAttributedString *attributeString = [[NSMutableAttributedString alloc] initWithString:text];
     NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc] init];
     paragraphStyle.lineSpacing = space;
@@ -80,7 +80,7 @@
 }
     
 + (CGSize)calculateLableSizeWithLableText:(NSString *)text font:(UIFont *)font maxWidth:(CGFloat)width {
-    if (![text length]) return CGSizeMake(width, 0.1f);
+    if (![text length]) return CGSizeMake(width, 0.01f);
     NSMutableAttributedString *attributeString = [[NSMutableAttributedString alloc] initWithString:text];
     NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc] init];
     [attributeString addAttribute:NSParagraphStyleAttributeName value:paragraphStyle range:NSMakeRange(0, text.length)];
