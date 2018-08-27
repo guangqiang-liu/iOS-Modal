@@ -14,7 +14,7 @@ target 'WLModal' do
 #  pod 'WLWidget', :path => '/Users/liuguangqiang/Desktop/companyRepo/WLPLib/WLWidget/WLWidget.podspec'
 
   pod 'WLIconFont'
-  pod 'GQWidget'
+  pod 'WLWidget'
   pod 'Masonry'
   pod 'SDWebImage'
 end

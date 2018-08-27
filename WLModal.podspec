@@ -33,5 +33,5 @@ Pod::Spec.new do |s|
   s.dependency 'Masonry'
   s.dependency 'SDWebImage'
   s.dependency 'WLIconFont'
-  s.dependency 'GQWidget'
+  s.dependency 'WLWidget'
 end
