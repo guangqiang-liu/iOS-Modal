@@ -4,7 +4,7 @@ platform :ios, '8.0'
 use_frameworks!
 
 source 'https://github.com/CocoaPods/Specs.git'
-source 'git@gitlab.qianbaocard.org:iOS/WLSpecs.git'
+source 'git@github.com:guangqiang-liu/GQSpec.git'
 
 target 'WLModal' do
   
@@ -13,8 +13,8 @@ target 'WLModal' do
 #  pod 'WLIconFont', :path => '/Users/liuguangqiang/Desktop/companyRepo/WLPLib/WLIconFont/WLIconFont.podspec'
 #  pod 'WLWidget', :path => '/Users/liuguangqiang/Desktop/companyRepo/WLPLib/WLWidget/WLWidget.podspec'
 
-  pod 'WLIconFont'
-  pod 'WLWidget'
+  pod 'GQIconFont'
+  pod 'GQWidget'
   pod 'Masonry'
   pod 'SDWebImage'
 end

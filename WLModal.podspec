@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WLModal'
-  s.version          = '0.0.5'
+  s.version          = '0.0.1'
   s.summary          = 'iOS中常用的Modal弹框组件集合库'
 
 # This description is used to generate tags and improve search results.
@@ -15,10 +15,10 @@ Pod::Spec.new do |s|
                        TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://gitlab.qianbaocard.org/iOS/view/WLModal'
+  s.homepage         = 'https://github.com/guangqiang-liu/GQModal'
   s.license          = "MIT"
   s.author           = { 'guangqiang' => '1126756952@qq.com' }
-  s.source           = { :git => 'git@gitlab.qianbaocard.org:iOS/view/WLModal.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:guangqiang-liu/GQModal.git', :tag => s.version.to_s }
 
   s.platform         = :ios, "8.0"
 
