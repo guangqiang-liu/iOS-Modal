@@ -34,4 +34,5 @@ Pod::Spec.new do |s|
   s.dependency 'SDWebImage'
   s.dependency 'WLIconFont'
   s.dependency 'WLWidget'
+  s.dependency 'WLBaseView'
 end

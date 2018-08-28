@@ -1,8 +1,14 @@
 PODS:
   - Masonry (1.1.0)
+  - ReactiveObjC (3.1.0)
   - SDWebImage (4.4.2):
     - SDWebImage/Core (= 4.4.2)
   - SDWebImage/Core (4.4.2)
+  - WLBaseView (0.0.1):
+    - ReactiveObjC
+    - WLBaseView/Code (= 0.0.1)
+  - WLBaseView/Code (0.0.1):
+    - ReactiveObjC
   - WLIconFont (0.0.1)
   - WLWidget (0.0.1):
     - SDWebImage
@@ -19,15 +25,18 @@ PODS:
 DEPENDENCIES:
   - Masonry
   - SDWebImage
+  - WLBaseView
   - WLIconFont
   - WLWidget
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
   SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  WLBaseView: 781dd67e3f2384271350545d08ba119fc97abe89
   WLIconFont: bacf1ac5b9107847deab23c0e5217ebff1d9f51e
   WLWidget: d046a5165612a9bc9fe9a1a8fd75f0261bef1838
 
-PODFILE CHECKSUM: 6f9f26ff576351ba97d86559cd5b44ebb9f6f4ac
+PODFILE CHECKSUM: 25763ef85047be3f5f0ad64e43b15aa47fc60e37
 
 COCOAPODS: 1.4.0

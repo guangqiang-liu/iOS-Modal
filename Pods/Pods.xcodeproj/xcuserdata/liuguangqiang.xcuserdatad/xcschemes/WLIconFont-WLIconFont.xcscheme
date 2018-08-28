@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7587A6AE7F5E4F4E02B52D246A45F34D"
+               BlueprintIdentifier = "88BBC75A2236E8DEE16C81CC8499CC1B"
                BuildableName = "WLIconFont.bundle"
                BlueprintName = "WLIconFont-WLIconFont"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7587A6AE7F5E4F4E02B52D246A45F34D"
+            BlueprintIdentifier = "88BBC75A2236E8DEE16C81CC8499CC1B"
             BuildableName = "WLIconFont.bundle"
             BlueprintName = "WLIconFont-WLIconFont"
             ReferencedContainer = "container:Pods.xcodeproj">

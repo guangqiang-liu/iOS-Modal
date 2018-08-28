@@ -17,4 +17,5 @@ target 'WLModal' do
   pod 'WLWidget'
   pod 'Masonry'
   pod 'SDWebImage'
+  pod 'WLBaseView'
 end
