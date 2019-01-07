@@ -12,21 +12,12 @@
 
 + (NSDictionary *)glyphMap {
     return @{
-             @"notification_o": @"\U0000e613",
-             @"scan_o": @"\U0000e612",
-             @"right_arrow_o": @"\U0000e611",
-             @"check_unselected_o": @"\U0000e60d",
-             @"check_selected_o": @"\U0000e60e",
-             @"arrow_down_s": @"\U0000e60f",
-             @"wallet_o": @"\U0000e633",
-             @"arrow_up_o": @"\U0000e60b",
-             @"arrow_down_o": @"\U0000e60a",
-             @"tip_o": @"\U0000e608",
-             @"unselected_cycyle_o": @"\U0000e609",
-             @"selected_cycyle_o": @"\U0000e607",
-             @"invoice_detail_state_o": @"\U0000e621",
-             @"search_gray_o": @"\U0000e614",
-             @"scan_rect_o": @"\U0000e612"
+             @"praise_selected_s": @"\U0000e60c",
+             @"praise_unselected_o": @"\U0000e600",
+             @"share_o": @"\U0000e70d",
+             @"filter_o": @"\U0000e789",
+             @"comment_o": @"\U0000e626",
+             @"add_o": @"\U0000e6c9",
              };
 }
 
