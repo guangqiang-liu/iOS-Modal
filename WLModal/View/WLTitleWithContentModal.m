@@ -53,7 +53,7 @@ static const CGFloat kMarginBottom = 10.0f;
     if (!_titleLable) {
         _titleLable = [[UILabel alloc] init];
         _titleLable.text = self.title;
-        _titleLable.textColor = textBlackColor;
+        _titleLable.textColor = textDarkBlackColor;
         _titleLable.font = HB14;
         _titleLable.numberOfLines = 0;
         _titleLable.textAlignment = NSTextAlignmentCenter;

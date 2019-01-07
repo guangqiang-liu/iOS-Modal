@@ -82,7 +82,7 @@
 - (UILabel *)titleLable {
     if (!_titleLable) {
         _titleLable = [[UILabel alloc] init];
-        _titleLable.textColor = textBlackColor;
+        _titleLable.textColor = textDarkBlackColor;
         _titleLable.font = H16;
         _titleLable.numberOfLines = 2;
         _titleLable.textAlignment = NSTextAlignmentCenter;

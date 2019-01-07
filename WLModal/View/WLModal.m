@@ -26,7 +26,7 @@ CGFloat buttonSpacerHeight = 1;
 - (id)init {
     self = [super init];
     if (self) {
-        self.frame = CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
+        self.frame = CGRectMake(0, 0, kScreenWidth, kScreenHeight);
         [[UIDevice currentDevice] beginGeneratingDeviceOrientationNotifications];
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(deviceOrientationDidChange:) name:UIDeviceOrientationDidChangeNotification object:nil];
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillShow:) name:UIKeyboardWillShowNotification object:nil];
@@ -195,8 +195,8 @@ CGFloat buttonSpacerHeight = 1;
         buttonHeight = 0;
         buttonSpacerHeight = 0;
     }
-    CGFloat screenWidth = SCREEN_WIDTH;
-    CGFloat screenHeight = SCREEN_HEIGHT;
+    CGFloat screenWidth = kScreenWidth;
+    CGFloat screenHeight = kScreenHeight;
     // iOS7, 屏幕的宽高不会随着方向自动调整
     if (floor(NSFoundationVersionNumber) <= NSFoundationVersionNumber_iOS_7_1) {
         UIInterfaceOrientation interfaceOrientation = [[UIApplication sharedApplication] statusBarOrientation];
@@ -244,8 +244,8 @@ CGFloat buttonSpacerHeight = 1;
 }
 
 - (void)changeOrientationForIOS8:(NSNotification *)notification {
-    CGFloat screenWidth = SCREEN_WIDTH;
-    CGFloat screenHeight = SCREEN_HEIGHT;
+    CGFloat screenWidth = kScreenWidth;
+    CGFloat screenHeight = kScreenHeight;
     [UIView animateWithDuration:0.2f delay:0.0 options:UIViewAnimationOptionTransitionNone
                      animations:^{
                          CGSize dialogSize = [self countDialogSize];
